@@ -56,7 +56,10 @@ li {
     border-bottom: 1px solid #dde3ea;
     padding: 10px 0;
 }
-
+.title-alignment {
+    display: inline-block;
+    padding-top: 8px;
+}
 .brand {
     display: inline-block;
     vertical-align: middle;
@@ -114,4 +117,61 @@ li {
 .nav-list a:hover {
     color: #1e90d6;
     border-bottom-color: #1e90d6;
+}
+
+/* ---------- HERO ---------- */
+.tag {
+    display: inline-block;
+    background-color: #0b4a8f;
+    border-radius: 20px;
+    color: white;
+    padding: 4px 14px;
+    font-size: 14px;
+}
+#home {
+  background-color: #eaf4fc;
+  padding: 60px 0;
+}
+.hero-text {
+    display: inline-block;
+    width: 58%;
+    min-width: 280px;
+    vertical-align: middle;
+}
+.hero-image {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 20%;
+    max-height: 20%;
+    margin-left: 100px;
+    text-align: center;
+}
+.hero-image img {
+  width: 300px;
+  mix-blend-mode: multiply;
+}
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    margin: 6px 15px 6px 0;
+    border: 2px solid #1e90d6;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.btn-primary {
+    background-color: #1e90d6;
+    color: white;
+}
+.btn-light {
+    color: #0b4a8f;
+    border: 2px solid #0b4a8f;
+}
+.btn-primary:hover {
+    background-color: #0b4a8f;
+    border-color: #0b4a8f;
+}
+.btn-light:hover {
+    background-color: #0b4a8f;
+    color: white;
 }
