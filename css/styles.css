@@ -1,4 +1,12 @@
+/* Color Palette: Primary #0b4a8f, Accent #1e90d6, Light BG #eaf4fc, Text #25303b */
 /* ---------- BASICS ---------- */
+
+* {
+  box-sizing: border-box;
+}
+/* (rest of your CSS code remains exactly the same...) */
+
+
 
 * {
   box-sizing: border-box;
@@ -298,9 +306,6 @@ td:last-child {
 
 tr:nth-child(even) {
   background-color: #f4f8fc;
-}
-.container narrow{
-  background-color:#25303b;
 }
 
 /* ---------- FORM ---------- */
