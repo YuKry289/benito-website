@@ -222,6 +222,8 @@ li {
   margin: auto;
 }
 
+/* ---------- CARDS ---------- */
+
 .card {
   background-color: white;
   padding: 16px;
@@ -243,6 +245,9 @@ li {
 .card p {
   font-size: 12px;
 }
+
+/* ---------- NOTICE ---------- */
+
 .notice {
   background-color: #eaf4fc;
   border-radius: 6px;
@@ -266,6 +271,9 @@ li {
   min-width: 260px;
   margin: 0;
 }
+
+/* ---------- TABLE ---------- */
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -294,6 +302,9 @@ tr:nth-child(even) {
 .container narrow{
   background-color:#25303b;
 }
+
+/* ---------- FORM ---------- */
+
 .form{
   background-color: #eaf4fc;
   display: flex;
@@ -323,4 +334,18 @@ tr:nth-child(even) {
   width: 99%;
   margin: 0 1% 0 1%;
   text-align: center;
+}
+
+/* ---------- CONTACT ---------- */
+
+.contact-update p{
+  display: flex;
+  text-align: center;
+  font-size: medium;
+}
+
+.contact-update h3 {
+  text-align: center;
+  border-bottom: 2px solid lightgray;
+  padding-top: 20px;
 }
