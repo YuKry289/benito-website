@@ -302,5 +302,20 @@
         </form>
       </div>
     </section>
+    <section id="track" class="section section-alt">
+    <div class="container narrow">
+      <h2 class="section-title">Track Your Repair</h2>
+      <p class="section-intro">
+        Enter the Repair Order ID printed on your receipt to see the status
+        of your device.
+      </p>
+
+      <!-- Same note as above: this form needs a backend to look up real orders. -->
+      <form class="form track-form" action="#" method="get">
+        <label for="order-id">Repair Order ID</label>
+        <input type="text" id="order-id" name="order" placeholder="e.g. #676767" required>
+        <button type="submit" class="btn btn-primary">Check Status</button>
+      </form>
+    </section>
   </body>
 </html>
