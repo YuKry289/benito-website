@@ -50,7 +50,7 @@
           </p>
 
           <div class="button-row">
-            <a href="#quote" class="btn btn-primary">Get a Reservation</a>
+            <a href="#quote" class="btn btn-primary">Get a Free Quote</a>
             <a href="#track" class="btn btn-light">Track My Repair</a>
           </div>
         </div>
@@ -231,6 +231,75 @@
             <p class="small">Warranty: 30 days</p>
           </div>
         </div>
+      </div>
+    </section>
+    <section id="quote" class="section">
+      <div class="container narrow">
+        <h2 class="section-title">Request a Quote</h2>
+        <p class="section-intro">
+          Tell us about your device and the problem. We will send you an
+          estimate without you having to visit the shop first.
+        </p>
+        <form class="form" action="#" method="post">
+          <label for="name">Your name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Juan Dela Cruz"
+            required
+          />
+
+          <label for="phone">Phone number</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="09XX XXX XXXX"
+            required
+          />
+
+          <label for="device">Device type</label>
+          <select id="device" name="device">
+            <option>Smartphone</option>
+            <option>Laptop</option>
+            <option>Tablet</option>
+            <option>Gaming Console</option>
+            <option>Other</option>
+          </select>
+
+          <label for="model">Device brand and model</label>
+          <input
+            type="text"
+            id="model"
+            name="model"
+            placeholder="e.g. Samsung Galaxy A54"
+            required
+          />
+
+          <label for="issue">What is the problem?</label>
+          <select id="issue" name="issue">
+            <option>Cracked screen</option>
+            <option>Battery drains fast</option>
+            <option>Won't charge</option>
+            <option>Liquid damage</option>
+            <option>Motherboard / won't turn on</option>
+            <option>Software or slow performance</option>
+            <option>Other</option>
+          </select>
+
+          <label for="details">More details (optional)</label>
+          <textarea
+            id="details"
+            name="details"
+            rows="4"
+            placeholder="Tell us what happened..."
+          ></textarea>
+
+          <button type="submit" class="btn btn-primary">
+            Send Quote Request
+          </button>
+        </form>
       </div>
     </section>
   </body>
