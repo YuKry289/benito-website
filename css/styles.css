@@ -349,3 +349,12 @@ tr:nth-child(even) {
   border-bottom: 2px solid lightgray;
   padding-top: 20px;
 }
+footer {
+  background-color: #0b4a8f;
+}
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  color: white;
+}
